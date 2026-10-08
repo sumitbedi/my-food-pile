@@ -22,18 +22,21 @@ Say roughly this, in your own words:
 
 > Hi! I'll turn your last year of Swiggy orders into a pile of food you can search, like typing "idli" and watching every idli you ordered jump out.
 > It takes about 5 minutes. Your orders stay on this computer and nothing is shared.
-> First, how would you like me to get your orders?
-> 1. **I'll read them from swiggy.com in Chrome.** Easiest. You just log in, and I'll do the rest. You get every dish. *(Only offer this if you can control their Chrome; see 2a.)*
-> 2. **You run one small copy-paste step yourself.** No Chrome extension needed. You get every dish.
-> 3. **From your Swiggy phone app.** You request a statement and drop the PDF here. Shows restaurants and amounts, but not individual dishes.
-> 4. **Just show me the demo first** with sample data.
+> Here's the plan I recommend:
+> 1. **Your food orders from swiggy.com in Chrome.** You log in, and I'll read your order history. You get every dish you ordered in the last year.
+> 2. **Then, if you'd like, your Instamart orders from Gmail.**
+> Shall we start? (If you'd rather just see a demo with sample data first, say "demo".)
 
-Wait for their choice. If they're unsure, recommend 1 if you can control their Chrome, otherwise 2. If you can't control their browser at all, don't list option 1. Offer 2, 3 and 4.
+Then pick the Chrome method yourself, without asking them to choose:
+- If you can control their Chrome (see 2a), use **2a**.
+- If you can't, use **2b**. They paste one small script and you guide every click. Don't present this as a lesser option. It gets exactly the same data.
 
-### 2a. Route 1 — you read swiggy.com in their Chrome
+**The phone-app statement (2c) is a last resort.** It has no dishes, so the pile can't show idlis, only one box per order. Only offer it if they can't use Chrome on a computer at all, and say plainly what they'll miss.
+
+### 2a. swiggy.com — you read it in their Chrome
 This needs a tool that drives **their own logged-in Chrome**: open a tab, run JavaScript in the page and read the result. For Claude Code that's the Claude in Chrome extension (see `CLAUDE.md`). Other assistants may have their own browser extension. If yours runs in a separate cloud browser, it won't have their Swiggy login, so use route 2.
 1. If your browser tool isn't connected, tell them what to install for your assistant, or say:
-   > If you'd rather not install anything, we can do option 2 instead. It's just as good.
+   > If you'd rather not install anything, we can do it with one small copy-paste instead (2b). It's just as good.
 2. Open a **new tab** at `https://www.swiggy.com/` and say:
    > I've opened Swiggy in Chrome. Please log in there: top right **Sign in**, then your phone number and the OTP. Tell me "done" when you see your name. I'll never see or type your OTP.
 3. When they say done, run `window.__pileNoDownload = true;` then the full contents of `tools/swiggy-export.js` in that tab with your run-JavaScript tool. Tell them: "Reading your orders now. This takes about 30 seconds."
@@ -42,7 +45,7 @@ This needs a tool that drives **their own logged-in Chrome**: open a tab, run Ja
 5. Write every line, unchanged and in order, to `data/raw/food-lines.txt`. Close the tab you opened.
 6. Continue at **step 3 (Instamart, optional)**.
 
-### 2b. Route 2 — they paste one step themselves
+### 2b. swiggy.com — they paste one small script (any assistant)
 Walk them through it slowly, one step per message, and wait for "done" after each:
 1. "Open **https://www.swiggy.com** in Chrome and log in."
 2. "Press **Cmd + Option + J** (Mac) or **Ctrl + Shift + J** (Windows). A panel called Console opens. It looks technical, and that's fine."
@@ -51,7 +54,7 @@ Walk them through it slowly, one step per message, and wait for "done" after eac
 5. Move it yourself: find the newest `orders.json` in their Downloads folder and move it to `data/raw/food.json`. If you can't find it, ask them to drag it into this folder.
 6. Continue at **step 3**.
 
-### 2c. Route 3 — the Swiggy phone app
+### 2c. Last resort — the Swiggy phone app (only if they can't use Chrome on a computer)
 Say:
 > In the Swiggy app: tap your **profile** (top right), then **Account Statements** (it may be called **Order Summary**). Choose **Food**, pick the dates (up to a year), and request it. Then do the same for **Instamart** if you use it. Swiggy emails you a PDF in a few minutes. Save the PDFs into the `data/statements` folder here, or just tell me where they are, and say "done".
 
@@ -60,9 +63,9 @@ Read each PDF. Most assistants can read PDFs directly; otherwise use `pdftotext`
 - **Food:** columns are Date, Order ID, Restaurant Name, Amount. Amounts can be a little **lower** than what was actually paid (seen 4–11% lower), and some dessert or sweet-shop orders may be missing. Say so.
 - **Instamart:** columns are Date, Order ID, **Pod Name**, Amount. Pod Name is the warehouse that packed the order, not a product, so use `"place": "Instamart"`. Amounts matched what was paid.
 - Only a date, with no time, so use 12:00 as the time. Build `data/raw/statements.json` as `{ "orders": [ { "ts": "YYYY-MM-DD 12:00", "place": "...", "total": 123.45, "items": [ { "name": "<restaurant>", "qty": 1, "price": 123.45 } ] } ] }`, using source `"food"` or `"instamart"` per file (the logo and columns tell you which). Tell them honestly:
-> Heads up: the statement doesn't list dishes, so your pile will show one box per order. Searching works by restaurant ("KFC", "Domino's"), not by dish. If you'd like dishes later, option 1 or 2 takes about 2 minutes.
+> Heads up: the statement doesn't list dishes, so your pile will show one box per order. Searching works by restaurant ("KFC", "Domino's"), not by dish. If you'd like dishes later, the swiggy.com route in Chrome takes about 2 minutes.
 
-### 2d. Route 4 — demo only
+### 2d. Demo only
 Start the app (step 5) without building anything. It shows fake sample data and says so at the bottom. Mention they can come back any time and say "set up my food pile".
 
 ### 3. Gmail: recommended, never required (ask once)

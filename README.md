@@ -28,14 +28,14 @@ That's it. **Recommended but optional:** letting your assistant read your Swiggy
 
 Your assistant will say hello, give you a few choices, and walk you through it one step at a time. You'll be asked to **log in to Swiggy yourself**. It never sees or types your OTP. Everything it's allowed to do is written in [`AGENTS.md`](AGENTS.md), if you're curious.
 
-### What your assistant will offer you
+### How your orders get in (the recommended way)
 
-| Choice | What you do | What you get |
-|---|---|---|
-| **1. Your assistant reads swiggy.com** *(easiest)* | Log in on swiggy.com. Only if your assistant can control your Chrome, e.g. Claude Code + the free [Claude in Chrome](https://claude.ai/chrome) extension | Every dish, last 12 months |
-| **2. One copy-paste step** | Paste a small script into Chrome. Your assistant shows you how. Works with any assistant | Every dish, last 12 months |
-| **3. Swiggy phone app** | Request an *Account Statement* (Food and/or Instamart) in the app, save the PDFs here | One box per order with restaurant and amount. No individual dishes |
-| **4. Just the demo** | Nothing | A pile of fake sample orders |
+1. **Food: from swiggy.com in Chrome.** ✅ Recommended. You log in, and your assistant reads your order history: every dish, from the last 12 months.
+   - If your assistant can control your Chrome (e.g. Claude Code + the free [Claude in Chrome](https://claude.ai/chrome) extension), it does everything.
+   - If not, it walks you through pasting one small script into Chrome. Same result, about 2 minutes, works with any assistant.
+2. **Instamart: from Gmail.** 👍 Recommended, optional. See below.
+
+> **Can't use Chrome on a computer?** As a last resort, the Swiggy phone app can email you an *Account Statement* PDF. It only lists orders and amounts, with **no dishes**, so your pile shows boxes instead of idlis. It works, but it's not nearly as fun.
 
 **Gmail (recommended):** swiggy.com doesn't show Instamart orders. If you connect Gmail, your assistant reads only your Swiggy order emails (read-only) to add your Instamart orders, plus your Incognito orders, but only if you ask. It's your choice, and skipping it is fine.
 
