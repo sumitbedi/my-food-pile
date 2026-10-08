@@ -1,0 +1,3 @@
+# Gemini CLI
+
+@AGENTS.md

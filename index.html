@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Food Pile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #ffffff; --ink: #111110; --mid: #6b6b67; --soft: #a3a39e; --line: #e6e6e2; --brand: #FE5005; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; background: var(--bg); overflow: hidden; }
+  body { font-family: "Outfit", -apple-system, BlinkMacSystemFont, system-ui, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+
+  #panel { position: fixed; z-index: 2; }
+  #brand { display: flex; align-items: center; gap: 12px; margin-bottom: 6vh; }
+  #brand b { font-size: 22px; font-weight: 600; letter-spacing: -.02em; color: var(--brand); }
+  #brand img { height: 30px; display: block; }   /* optional: drop your own logo in */
+  #sample { position: fixed; right: 20px; bottom: 16px; z-index: 3; font-size: 12px; color: var(--mid); background: #fff; padding: 6px 10px; border-radius: 99px; box-shadow: 0 1px 6px rgba(0,0,0,.08); }
+  #brand span { font-size: 13px; color: var(--soft); padding-left: 12px; border-left: 1px solid var(--line); letter-spacing: .01em; }
+
+  #q { width: 100%; background: transparent; border: 0; border-bottom: 1.5px solid var(--line); color: var(--ink); font: inherit;
+       font-size: clamp(30px, 2.8vw, 44px); font-weight: 300; letter-spacing: -.02em; padding: 8px 0 12px; outline: none; caret-color: var(--brand); transition: border-color .25s ease; }
+  #q::placeholder { color: #c9c9c4; font-weight: 200; }
+  #q:focus { border-bottom-color: var(--ink); }
+
+
+  #result { margin-top: 5vh; }
+  #result > * { opacity: 0; transform: translateY(10px); transition: opacity .45s ease, transform .7s cubic-bezier(.2,.9,.25,1.15); }
+  #result.show > * { opacity: 1; transform: none; }
+  #result.show > :nth-child(2) { transition-delay: .06s; }
+  #result.show > :nth-child(3) { transition-delay: .14s; }
+  #result.show > :nth-child(4) { transition-delay: .22s; }
+  #num  { font-size: clamp(88px, min(15vw, 24vh), 240px); font-weight: 200; letter-spacing: -.05em; line-height: .82; font-variant-numeric: tabular-nums; margin-left: -.04em; }
+  #unit { font-size: clamp(22px, 2.2vw, 32px); font-weight: 400; letter-spacing: -.01em; margin-top: 14px; }
+  #paid { font-size: clamp(22px, 2.2vw, 32px); font-weight: 500; letter-spacing: -.02em; color: var(--brand); font-variant-numeric: tabular-nums; }
+  #facts { font-size: clamp(13px, 1.9vh, 15px); line-height: 1.55; color: var(--mid); margin-top: 14px; max-width: 34ch; }
+  #tip { position: fixed; left: 0; top: 0; z-index: 5; pointer-events: none; background: #fff; border-radius: 12px; padding: 11px 14px 12px;
+         box-shadow: 0 1px 2px rgba(0,0,0,.06), 0 8px 28px rgba(0,0,0,.12); max-width: 260px; display: flex; flex-direction: column; gap: 2px;
+         opacity: 0; scale: .96; transition: opacity .15s ease, scale .2s cubic-bezier(.2,.9,.3,1.2); transform-origin: top left; }
+  #tip.on { opacity: 1; scale: 1; }
+  #tip b  { font-size: 15px; font-weight: 500; line-height: 1.25; color: var(--ink); }
+  #tip span { font-size: 13px; color: var(--mid); }
+  #tip i  { font-style: normal; font-size: 12px; color: var(--soft); margin-top: 4px; }
+  #tip em { font-style: normal; font-size: 13px; font-weight: 500; color: var(--brand); }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="panel">
+  <div id="brand"><b>my food pile</b><span id="range">a year, in a pile</span></div>
+  <input id="q" type="text" placeholder="Search what you ate" autocomplete="off" spellcheck="false" autofocus>
+    <div id="result">
+    <div id="num"></div>
+    <div id="unit"></div>
+    <div id="paid"></div>
+    <div id="facts"></div>
+  </div>
+</div>
+<div id="tip"></div>
+<div id="sample" hidden>Sample data · run the setup to see your own orders</div>
+<script src="vendor/matter.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

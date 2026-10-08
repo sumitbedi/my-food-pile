@@ -1,0 +1,8 @@
+# your personal order data, never commit
+data/orders.json
+data/raw/
+data/statements/
+# local stuff
+node_modules/
+.DS_Store
+*.log

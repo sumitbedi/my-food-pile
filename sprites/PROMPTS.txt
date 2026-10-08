@@ -1,0 +1,61 @@
+You are making a set of small food and product images (sprites) for a fun app called Swiggy Pile.
+
+In the app, every one of these items lies in a big pile at the bottom of a black screen. When the user types a word like "idli" into the search bar, all the idlis jump out of the pile with real physics and line up in a neat block, with a count like "× 42 · ₹4,100". The images will be cut out and dropped onto a black background, so clean edges matter more than anything else.
+
+YOUR JOB
+Generate one image for every item in the list below, one at a time, in the order given. Make them all in the exact same style so they look like one matching set. When you hand each image back, name it with the file name shown.
+
+IMAGE RULES (apply to every single image)
+1. Transparent PNG. The background must be fully transparent: no white, no colour, no gradient.
+2. One object only, centred, filling about 80% of the frame.
+3. Square, 1024 × 1024 pixels.
+4. No drop shadow, no ground or floor, no reflection, no surface under the object. The app adds its own physics, so a shadow would make the item look like it is floating.
+5. No text, no brand names, no logos anywhere, including on the packets, cans and bottles.
+6. Show the whole object. Nothing cropped at the edges.
+7. It must read clearly at a very small size (about 40–60 pixels on screen), so use bold, simple shapes and clear colours, without fussy detail.
+8. It must look good on a black background. Avoid dark items with no outline that would disappear into black.
+
+STYLE (identical for every image)
+Soft, glossy 3D toy-like render, slightly playful and cute, three-quarter front view, bright natural colours, soft even studio lighting, smooth surfaces. Treat all the items as if they belong to the same toy collection.
+
+THE ITEMS (based on what was actually ordered)
+
+ #  | File name            | What to draw
+----|----------------------|------------------------------------------------------------------
+ 1  | idli.png             | A single soft white South Indian idli, round and fluffy, gently domed top
+ 2  | vada.png             | A single golden-brown medu vada, doughnut shape with a hole in the middle, crispy edges
+ 3  | dosa.png             | A single rolled golden masala dosa, crisp, a little potato filling peeking out
+ 4  | poori.png            | A single puffed-up golden poori, round and inflated like a balloon
+ 5  | pizza.png            | A single slice of cheesy pizza, golden crust, melted cheese, a few toppings
+ 6  | garlic-bread.png     | A single piece of stuffed garlic bread, golden top with herbs, cheese and corn peeking out
+ 7  | rasmalai.png         | A small white bowl with two rasmalai in creamy saffron milk, pistachio slivers on top
+ 8  | ice-cream-cup.png    | A small paper ice cream cup with a scoop of pink strawberry ice cream and a tiny wooden spoon
+ 9  | ice-cream-cone.png   | A single waffle cone with a swirl of chocolate ice cream
+ 10 | kombucha.png         | A slim glass bottle of orange-yellow kombucha, plain cap, blank label
+ 11 | lassi.png            | A small plastic bottle of white lassi, plain cap, blank label
+ 12 | chai.png             | A small paper cup of milky Indian chai with a little steam rising
+ 13 | burger.png           | A single burger: sesame bun, patty, cheese, lettuce, tomato
+ 14 | fries.png            | A red paper carton full of golden french fries
+ 15 | fried-chicken.png    | A single crispy golden fried chicken drumstick
+ 16 | shawarma.png         | A single shawarma roll wrapped in white paper, filling visible at the top
+ 17 | biryani.png          | A small round bowl of chicken biryani, saffron rice, a piece of chicken on top
+ 18 | sandwich.png         | A single triangle sandwich half with visible layers of cheese, vegetables and filling
+ 19 | cake.png             | A single slice of layered chocolate cake with cream frosting
+ 20 | tart.png             | A single small round chocolate tart with a glossy ganache top
+ 21 | chips.png            | A single sealed snack chips packet, puffy and crinkled, bright colours, no brand name
+ 22 | puffs.png            | A single sealed snack puffs packet, puffy and crinkled, a different colour from the chips packet, no brand name
+ 23 | coke.png             | A single red soft-drink can with a few water droplets, no logo
+ 24 | banana.png           | A single small yellow banana
+ 25 | takeaway.png         | A closed brown paper takeaway food box with a folded top (used for every other dish)
+
+OPTIONAL EXTRAS (one-off buys, used as a joke at the end)
+ 26 | fan.png              | A single small white desk table fan
+ 27 | tt-racquet.png       | A single table tennis racquet, red rubber face, wooden handle
+ 28 | instax-film.png      | A single small box of instant camera film, no brand name
+
+CHECK BEFORE HANDING EACH ONE BACK
+- Is the background fully transparent?
+- Is there no shadow and no ground?
+- Is there no text and no logo?
+- Does it match the style of the images before it?
+If any answer is no, fix it before moving on.

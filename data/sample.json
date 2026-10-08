@@ -1,0 +1,2090 @@
+{
+ "note": "FAKE sample data so the app works out of the box. Run the setup to replace it with your own orders (data/orders.json).",
+ "orders": [
+  {
+   "source": "food",
+   "ts": "2026-03-26 22:03",
+   "place": "Slice Theory",
+   "total": 334,
+   "items": [
+    {
+     "name": "Coke Can",
+     "qty": 2,
+     "price": 120
+    },
+    {
+     "name": "Garlic Bread",
+     "qty": 2,
+     "price": 258
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2026-03-26 20:06",
+   "place": "Instamart",
+   "total": 39,
+   "items": [
+    {
+     "name": "Cheese Puffs",
+     "qty": 1,
+     "price": 30
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-25 22:58",
+   "place": "Roll Street",
+   "total": 459,
+   "items": [
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 2,
+     "price": 318
+    },
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-16 13:05",
+   "place": "Slice Theory",
+   "total": 453,
+   "items": [
+    {
+     "name": "Garlic Bread",
+     "qty": 1,
+     "price": 129
+    },
+    {
+     "name": "Margherita Pizza",
+     "qty": 1,
+     "price": 299
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-12 09:30",
+   "place": "Udupi Corner",
+   "total": 100,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-08 07:07",
+   "place": "Udupi Corner",
+   "total": 87,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-07 09:10",
+   "place": "Udupi Corner",
+   "total": 238,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-06 13:48",
+   "place": "Burger Lab",
+   "total": 672,
+   "items": [
+    {
+     "name": "Fries (Regular)",
+     "qty": 2,
+     "price": 198
+    },
+    {
+     "name": "Chicken Burger",
+     "qty": 2,
+     "price": 378
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-05 08:01",
+   "place": "Udupi Corner",
+   "total": 98,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-03 13:01",
+   "place": "Scoops",
+   "total": 206,
+   "items": [
+    {
+     "name": "Chocolate Ice Cream Cup",
+     "qty": 2,
+     "price": 180
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-03-01 08:57",
+   "place": "Udupi Corner",
+   "total": 257,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-02-27 13:03",
+   "place": "Biryani House",
+   "total": 661,
+   "items": [
+    {
+     "name": "Veg Biryani",
+     "qty": 1,
+     "price": 219
+    },
+    {
+     "name": "Chicken Biryani",
+     "qty": 2,
+     "price": 558
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-02-26 22:03",
+   "place": "Roll Street",
+   "total": 174,
+   "items": [
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 1,
+     "price": 159
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2026-02-20 20:16",
+   "place": "Instamart",
+   "total": 43,
+   "items": [
+    {
+     "name": "Toned Milk",
+     "qty": 1,
+     "price": 30
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-02-20 08:51",
+   "place": "Udupi Corner",
+   "total": 203,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-02-17 13:36",
+   "place": "Slice Theory",
+   "total": 271,
+   "items": [
+    {
+     "name": "Margherita Pizza",
+     "qty": 1,
+     "price": 299
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-02-17 07:45",
+   "place": "Udupi Corner",
+   "total": 163,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 2,
+     "price": 80
+    },
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-02-10 13:06",
+   "place": "Burger Lab",
+   "total": 280,
+   "items": [
+    {
+     "name": "Fries (Regular)",
+     "qty": 1,
+     "price": 99
+    },
+    {
+     "name": "Classic Veg Burger",
+     "qty": 1,
+     "price": 149
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-02-04 17:09",
+   "place": "Chai Point",
+   "total": 160,
+   "items": [
+    {
+     "name": "Bun Maska",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Masala Chai",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-31 21:53",
+   "place": "Slice Theory",
+   "total": 340,
+   "items": [
+    {
+     "name": "Margherita Pizza",
+     "qty": 1,
+     "price": 299
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-22 22:13",
+   "place": "Slice Theory",
+   "total": 443,
+   "items": [
+    {
+     "name": "Garlic Bread",
+     "qty": 1,
+     "price": 129
+    },
+    {
+     "name": "Margherita Pizza",
+     "qty": 1,
+     "price": 299
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-18 22:46",
+   "place": "Bake Street",
+   "total": 315,
+   "items": [
+    {
+     "name": "Chocolate Pastry",
+     "qty": 2,
+     "price": 220
+    },
+    {
+     "name": "Lemon Tart",
+     "qty": 1,
+     "price": 95
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-18 20:53",
+   "place": "Roll Street",
+   "total": 151,
+   "items": [
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-13 08:29",
+   "place": "Udupi Corner",
+   "total": 240,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-09 07:26",
+   "place": "Udupi Corner",
+   "total": 67,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-08 22:08",
+   "place": "Roll Street",
+   "total": 323,
+   "items": [
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 1,
+     "price": 159
+    },
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-04 20:39",
+   "place": "Burger Lab",
+   "total": 461,
+   "items": [
+    {
+     "name": "Classic Veg Burger",
+     "qty": 1,
+     "price": 149
+    },
+    {
+     "name": "Chicken Burger",
+     "qty": 1,
+     "price": 189
+    },
+    {
+     "name": "Fries (Regular)",
+     "qty": 1,
+     "price": 99
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2026-01-01 13:24",
+   "place": "Biryani House",
+   "total": 481,
+   "items": [
+    {
+     "name": "Veg Biryani",
+     "qty": 1,
+     "price": 219
+    },
+    {
+     "name": "Chicken Biryani",
+     "qty": 1,
+     "price": 279
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-12-29 21:18",
+   "place": "Scoops",
+   "total": 174,
+   "items": [
+    {
+     "name": "Mango Ice Cream Cone",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Chocolate Ice Cream Cup",
+     "qty": 1,
+     "price": 90
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-12-28 22:53",
+   "place": "Instamart",
+   "total": 76,
+   "items": [
+    {
+     "name": "Multigrain Chips",
+     "qty": 1,
+     "price": 50
+    },
+    {
+     "name": "Cheese Puffs",
+     "qty": 1,
+     "price": 30
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-12-26 08:04",
+   "place": "Udupi Corner",
+   "total": 220,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-12-23 09:48",
+   "place": "Udupi Corner",
+   "total": 234,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-12-17 09:16",
+   "place": "Udupi Corner",
+   "total": 69,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-12-14 07:22",
+   "place": "Chai Point",
+   "total": 79,
+   "items": [
+    {
+     "name": "Masala Chai",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-12-08 20:33",
+   "place": "Roll Street",
+   "total": 330,
+   "items": [
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 1,
+     "price": 159
+    },
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-29 08:00",
+   "place": "Udupi Corner",
+   "total": 258,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 2,
+     "price": 240
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-26 22:34",
+   "place": "Burger Lab",
+   "total": 171,
+   "items": [
+    {
+     "name": "Fries (Regular)",
+     "qty": 1,
+     "price": 99
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-24 20:00",
+   "place": "Burger Lab",
+   "total": 359,
+   "items": [
+    {
+     "name": "Classic Veg Burger",
+     "qty": 1,
+     "price": 149
+    },
+    {
+     "name": "Chicken Burger",
+     "qty": 1,
+     "price": 189
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-11-23 22:55",
+   "place": "Instamart",
+   "total": 47,
+   "items": [
+    {
+     "name": "Mango Lassi",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-23 20:31",
+   "place": "Burger Lab",
+   "total": 499,
+   "items": [
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    },
+    {
+     "name": "Classic Veg Burger",
+     "qty": 2,
+     "price": 298
+    },
+    {
+     "name": "Chicken Burger",
+     "qty": 1,
+     "price": 189
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-11-21 21:33",
+   "place": "Instamart",
+   "total": 187,
+   "items": [
+    {
+     "name": "Cheese Puffs",
+     "qty": 1,
+     "price": 30
+    },
+    {
+     "name": "Kombucha Ginger Lemon",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Banana",
+     "qty": 1,
+     "price": 45
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-21 20:58",
+   "place": "Bake Street",
+   "total": 317,
+   "items": [
+    {
+     "name": "Lemon Tart",
+     "qty": 1,
+     "price": 95
+    },
+    {
+     "name": "Chocolate Pastry",
+     "qty": 1,
+     "price": 110
+    },
+    {
+     "name": "Red Velvet Cake Slice",
+     "qty": 1,
+     "price": 140
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-18 21:27",
+   "place": "Scoops",
+   "total": 291,
+   "items": [
+    {
+     "name": "Chocolate Ice Cream Cup",
+     "qty": 2,
+     "price": 180
+    },
+    {
+     "name": "Mango Ice Cream Cone",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-14 09:24",
+   "place": "Udupi Corner",
+   "total": 167,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 2,
+     "price": 80
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-11-10 22:09",
+   "place": "Instamart",
+   "total": 189,
+   "items": [
+    {
+     "name": "Multigrain Chips",
+     "qty": 2,
+     "price": 100
+    },
+    {
+     "name": "Toned Milk",
+     "qty": 1,
+     "price": 30
+    },
+    {
+     "name": "Banana",
+     "qty": 1,
+     "price": 45
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-06 13:50",
+   "place": "Bake Street",
+   "total": 259,
+   "items": [
+    {
+     "name": "Chocolate Pastry",
+     "qty": 1,
+     "price": 110
+    },
+    {
+     "name": "Red Velvet Cake Slice",
+     "qty": 1,
+     "price": 140
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-05 07:17",
+   "place": "Udupi Corner",
+   "total": 119,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-11-02 08:42",
+   "place": "Udupi Corner",
+   "total": 183,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-31 08:19",
+   "place": "Udupi Corner",
+   "total": 415,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 2,
+     "price": 140
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 2,
+     "price": 240
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-27 21:46",
+   "place": "Slice Theory",
+   "total": 642,
+   "items": [
+    {
+     "name": "Garlic Bread",
+     "qty": 1,
+     "price": 129
+    },
+    {
+     "name": "Margherita Pizza",
+     "qty": 2,
+     "price": 598
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-24 09:10",
+   "place": "Udupi Corner",
+   "total": 228,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-21 07:02",
+   "place": "Udupi Corner",
+   "total": 70,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-19 08:56",
+   "place": "Udupi Corner",
+   "total": 106,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-12 22:16",
+   "place": "Roll Street",
+   "total": 176,
+   "items": [
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-10-10 20:50",
+   "place": "Instamart",
+   "total": 46,
+   "items": [
+    {
+     "name": "Mango Lassi",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-08 08:56",
+   "place": "Udupi Corner",
+   "total": 141,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-07 21:34",
+   "place": "Roll Street",
+   "total": 462,
+   "items": [
+    {
+     "name": "Paneer Wrap",
+     "qty": 2,
+     "price": 298
+    },
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 1,
+     "price": 159
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-06 13:50",
+   "place": "Slice Theory",
+   "total": 202,
+   "items": [
+    {
+     "name": "Garlic Bread",
+     "qty": 1,
+     "price": 129
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-10-06 07:33",
+   "place": "Chai Point",
+   "total": 97,
+   "items": [
+    {
+     "name": "Bun Maska",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-28 21:29",
+   "place": "Biryani House",
+   "total": 515,
+   "items": [
+    {
+     "name": "Veg Biryani",
+     "qty": 1,
+     "price": 219
+    },
+    {
+     "name": "Chicken Biryani",
+     "qty": 1,
+     "price": 279
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-28 08:06",
+   "place": "Udupi Corner",
+   "total": 201,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-09-27 13:53",
+   "place": "Instamart",
+   "total": 109,
+   "items": [
+    {
+     "name": "Banana",
+     "qty": 1,
+     "price": 45
+    },
+    {
+     "name": "Multigrain Chips",
+     "qty": 1,
+     "price": 50
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-27 13:03",
+   "place": "Roll Street",
+   "total": 158,
+   "items": [
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-20 20:45",
+   "place": "Biryani House",
+   "total": 209,
+   "items": [
+    {
+     "name": "Veg Biryani",
+     "qty": 1,
+     "price": 219
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-09-20 13:46",
+   "place": "Instamart",
+   "total": 149,
+   "items": [
+    {
+     "name": "Multigrain Chips",
+     "qty": 1,
+     "price": 50
+    },
+    {
+     "name": "Banana",
+     "qty": 2,
+     "price": 90
+    },
+    {
+     "name": "Cheese Puffs",
+     "qty": 1,
+     "price": 30
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-09-17 13:09",
+   "place": "Instamart",
+   "total": 42,
+   "items": [
+    {
+     "name": "Toned Milk",
+     "qty": 1,
+     "price": 30
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-15 09:24",
+   "place": "Udupi Corner",
+   "total": 96,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-10 22:01",
+   "place": "Roll Street",
+   "total": 400,
+   "items": [
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 1,
+     "price": 159
+    },
+    {
+     "name": "Paneer Wrap",
+     "qty": 2,
+     "price": 298
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-10 13:00",
+   "place": "Scoops",
+   "total": 373,
+   "items": [
+    {
+     "name": "Mango Ice Cream Cone",
+     "qty": 2,
+     "price": 160
+    },
+    {
+     "name": "Chocolate Ice Cream Cup",
+     "qty": 2,
+     "price": 180
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-09-09 21:28",
+   "place": "Instamart",
+   "total": 141,
+   "items": [
+    {
+     "name": "Banana",
+     "qty": 1,
+     "price": 45
+    },
+    {
+     "name": "Cheese Puffs",
+     "qty": 1,
+     "price": 30
+    },
+    {
+     "name": "Mango Lassi",
+     "qty": 2,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-08 07:04",
+   "place": "Udupi Corner",
+   "total": 153,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-09-01 09:14",
+   "place": "Udupi Corner",
+   "total": 106,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 2,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-31 09:35",
+   "place": "Udupi Corner",
+   "total": 284,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-26 17:08",
+   "place": "Chai Point",
+   "total": 88,
+   "items": [
+    {
+     "name": "Masala Chai",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-24 07:27",
+   "place": "Chai Point",
+   "total": 155,
+   "items": [
+    {
+     "name": "Masala Chai",
+     "qty": 1,
+     "price": 60
+    },
+    {
+     "name": "Bun Maska",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-22 22:43",
+   "place": "Sweet Ghar",
+   "total": 181,
+   "items": [
+    {
+     "name": "Gulab Jamun",
+     "qty": 1,
+     "price": 50
+    },
+    {
+     "name": "Rasmalai",
+     "qty": 2,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-22 13:13",
+   "place": "Biryani House",
+   "total": 680,
+   "items": [
+    {
+     "name": "Chicken Biryani",
+     "qty": 1,
+     "price": 279
+    },
+    {
+     "name": "Veg Biryani",
+     "qty": 2,
+     "price": 438
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-21 09:59",
+   "place": "Udupi Corner",
+   "total": 193,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-08-20 20:39",
+   "place": "Instamart",
+   "total": 134,
+   "items": [
+    {
+     "name": "Banana",
+     "qty": 2,
+     "price": 90
+    },
+    {
+     "name": "Mango Lassi",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-12 20:34",
+   "place": "Slice Theory",
+   "total": 805,
+   "items": [
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    },
+    {
+     "name": "Garlic Bread",
+     "qty": 1,
+     "price": 129
+    },
+    {
+     "name": "Margherita Pizza",
+     "qty": 2,
+     "price": 598
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-12 08:45",
+   "place": "Udupi Corner",
+   "total": 67,
+   "items": [
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-06 22:22",
+   "place": "Slice Theory",
+   "total": 647,
+   "items": [
+    {
+     "name": "Garlic Bread",
+     "qty": 1,
+     "price": 129
+    },
+    {
+     "name": "Margherita Pizza",
+     "qty": 2,
+     "price": 598
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-05 07:00",
+   "place": "Udupi Corner",
+   "total": 151,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 2,
+     "price": 140
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-08-02 08:12",
+   "place": "Udupi Corner",
+   "total": 132,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-28 20:24",
+   "place": "Bake Street",
+   "total": 503,
+   "items": [
+    {
+     "name": "Lemon Tart",
+     "qty": 1,
+     "price": 95
+    },
+    {
+     "name": "Red Velvet Cake Slice",
+     "qty": 1,
+     "price": 140
+    },
+    {
+     "name": "Chocolate Pastry",
+     "qty": 2,
+     "price": 220
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-26 20:25",
+   "place": "Burger Lab",
+   "total": 339,
+   "items": [
+    {
+     "name": "Chicken Burger",
+     "qty": 2,
+     "price": 378
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-25 22:57",
+   "place": "Biryani House",
+   "total": 690,
+   "items": [
+    {
+     "name": "Veg Biryani",
+     "qty": 2,
+     "price": 438
+    },
+    {
+     "name": "Chicken Biryani",
+     "qty": 1,
+     "price": 279
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-07-23 22:14",
+   "place": "Instamart",
+   "total": 237,
+   "items": [
+    {
+     "name": "Multigrain Chips",
+     "qty": 2,
+     "price": 100
+    },
+    {
+     "name": "Kombucha Ginger Lemon",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-23 13:27",
+   "place": "Burger Lab",
+   "total": 584,
+   "items": [
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    },
+    {
+     "name": "Fries (Regular)",
+     "qty": 1,
+     "price": 99
+    },
+    {
+     "name": "Chicken Burger",
+     "qty": 2,
+     "price": 378
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-17 21:01",
+   "place": "Scoops",
+   "total": 205,
+   "items": [
+    {
+     "name": "Mango Ice Cream Cone",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Chocolate Ice Cream Cup",
+     "qty": 1,
+     "price": 90
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-15 22:29",
+   "place": "Scoops",
+   "total": 206,
+   "items": [
+    {
+     "name": "Chocolate Ice Cream Cup",
+     "qty": 1,
+     "price": 90
+    },
+    {
+     "name": "Mango Ice Cream Cone",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-15 09:32",
+   "place": "Udupi Corner",
+   "total": 221,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 2,
+     "price": 160
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-07 07:21",
+   "place": "Udupi Corner",
+   "total": 233,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-07-05 21:40",
+   "place": "Instamart",
+   "total": 128,
+   "items": [
+    {
+     "name": "Banana",
+     "qty": 1,
+     "price": 45
+    },
+    {
+     "name": "Mango Lassi",
+     "qty": 2,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-07-03 13:42",
+   "place": "Bake Street",
+   "total": 221,
+   "items": [
+    {
+     "name": "Lemon Tart",
+     "qty": 1,
+     "price": 95
+    },
+    {
+     "name": "Red Velvet Cake Slice",
+     "qty": 1,
+     "price": 140
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-29 20:20",
+   "place": "Slice Theory",
+   "total": 165,
+   "items": [
+    {
+     "name": "Garlic Bread",
+     "qty": 1,
+     "price": 129
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-28 13:20",
+   "place": "Roll Street",
+   "total": 179,
+   "items": [
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-27 21:34",
+   "place": "Slice Theory",
+   "total": 435,
+   "items": [
+    {
+     "name": "Margherita Pizza",
+     "qty": 1,
+     "price": 299
+    },
+    {
+     "name": "Coke Can",
+     "qty": 2,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-24 13:06",
+   "place": "Roll Street",
+   "total": 181,
+   "items": [
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-24 07:57",
+   "place": "Udupi Corner",
+   "total": 275,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 2,
+     "price": 80
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-09 20:07",
+   "place": "Burger Lab",
+   "total": 225,
+   "items": [
+    {
+     "name": "Classic Veg Burger",
+     "qty": 1,
+     "price": 149
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-07 13:05",
+   "place": "Bake Street",
+   "total": 148,
+   "items": [
+    {
+     "name": "Red Velvet Cake Slice",
+     "qty": 1,
+     "price": 140
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-04 07:31",
+   "place": "Udupi Corner",
+   "total": 357,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 2,
+     "price": 240
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-06-01 13:13",
+   "place": "Roll Street",
+   "total": 664,
+   "items": [
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 2,
+     "price": 318
+    },
+    {
+     "name": "Paneer Wrap",
+     "qty": 2,
+     "price": 298
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-05-31 20:52",
+   "place": "Roll Street",
+   "total": 515,
+   "items": [
+    {
+     "name": "Paneer Wrap",
+     "qty": 1,
+     "price": 149
+    },
+    {
+     "name": "Chicken Shawarma Roll",
+     "qty": 2,
+     "price": 318
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-05-25 17:35",
+   "place": "Chai Point",
+   "total": 169,
+   "items": [
+    {
+     "name": "Bun Maska",
+     "qty": 2,
+     "price": 140
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-05-25 13:52",
+   "place": "Burger Lab",
+   "total": 392,
+   "items": [
+    {
+     "name": "Classic Veg Burger",
+     "qty": 1,
+     "price": 149
+    },
+    {
+     "name": "Chicken Burger",
+     "qty": 1,
+     "price": 189
+    },
+    {
+     "name": "Coke Can",
+     "qty": 1,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-05-17 21:18",
+   "place": "Instamart",
+   "total": 126,
+   "items": [
+    {
+     "name": "Multigrain Chips",
+     "qty": 2,
+     "price": 100
+    },
+    {
+     "name": "Toned Milk",
+     "qty": 1,
+     "price": 30
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-05-16 13:17",
+   "place": "Instamart",
+   "total": 70,
+   "items": [
+    {
+     "name": "Cheese Puffs",
+     "qty": 2,
+     "price": 60
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-05-10 13:35",
+   "place": "Instamart",
+   "total": 115,
+   "items": [
+    {
+     "name": "Kombucha Ginger Lemon",
+     "qty": 1,
+     "price": 120
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-05-09 13:40",
+   "place": "Burger Lab",
+   "total": 433,
+   "items": [
+    {
+     "name": "Chicken Burger",
+     "qty": 1,
+     "price": 189
+    },
+    {
+     "name": "Coke Can",
+     "qty": 2,
+     "price": 120
+    },
+    {
+     "name": "Fries (Regular)",
+     "qty": 1,
+     "price": 99
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-05-04 08:14",
+   "place": "Udupi Corner",
+   "total": 284,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 1,
+     "price": 120
+    },
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-05-03 20:09",
+   "place": "Instamart",
+   "total": 86,
+   "items": [
+    {
+     "name": "Multigrain Chips",
+     "qty": 1,
+     "price": 50
+    },
+    {
+     "name": "Mango Lassi",
+     "qty": 1,
+     "price": 40
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-05-01 20:32",
+   "place": "Burger Lab",
+   "total": 180,
+   "items": [
+    {
+     "name": "Classic Veg Burger",
+     "qty": 1,
+     "price": 149
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-04-24 20:52",
+   "place": "Bake Street",
+   "total": 324,
+   "items": [
+    {
+     "name": "Lemon Tart",
+     "qty": 1,
+     "price": 95
+    },
+    {
+     "name": "Chocolate Pastry",
+     "qty": 1,
+     "price": 110
+    },
+    {
+     "name": "Red Velvet Cake Slice",
+     "qty": 1,
+     "price": 140
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-04-20 09:06",
+   "place": "Udupi Corner",
+   "total": 336,
+   "items": [
+    {
+     "name": "Masala Dosa",
+     "qty": 2,
+     "price": 240
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    },
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-04-15 13:03",
+   "place": "Instamart",
+   "total": 58,
+   "items": [
+    {
+     "name": "Banana",
+     "qty": 1,
+     "price": 45
+    }
+   ]
+  },
+  {
+   "source": "instamart",
+   "ts": "2025-04-14 13:52",
+   "place": "Instamart",
+   "total": 78,
+   "items": [
+    {
+     "name": "Cheese Puffs",
+     "qty": 1,
+     "price": 30
+    },
+    {
+     "name": "Multigrain Chips",
+     "qty": 1,
+     "price": 50
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-04-08 08:47",
+   "place": "Udupi Corner",
+   "total": 334,
+   "items": [
+    {
+     "name": "Medu Vada",
+     "qty": 1,
+     "price": 70
+    },
+    {
+     "name": "Filter Coffee",
+     "qty": 1,
+     "price": 40
+    },
+    {
+     "name": "Masala Dosa",
+     "qty": 2,
+     "price": 240
+    }
+   ]
+  },
+  {
+   "source": "food",
+   "ts": "2025-04-05 09:39",
+   "place": "Udupi Corner",
+   "total": 113,
+   "items": [
+    {
+     "name": "Idli (2 Pcs)",
+     "qty": 1,
+     "price": 80
+    }
+   ]
+  }
+ ]
+}

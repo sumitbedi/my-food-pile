@@ -1,0 +1,11 @@
+{
+  "name": "my-food-pile",
+  "private": true,
+  "description": "A year of your food orders as a physics pile. Works with Swiggy. Fan-made, not affiliated.",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 .",
+    "build": "node tools/build-orders.mjs",
+    "qa": "node tools/qa/stress.cjs http://127.0.0.1:5173/"
+  },
+  "devDependencies": { "puppeteer-core": "^23.0.0" }
+}
