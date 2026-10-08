@@ -55,7 +55,11 @@ Walk them through it slowly, one step per message, and wait for "done" after eac
 Say:
 > In the Swiggy app: tap your **profile** (top right), then **Account Statements** (it may be called **Order Summary**). Choose **Food**, pick the dates (up to a year), and request it. Then do the same for **Instamart** if you use it. Swiggy emails you a PDF in a few minutes. Save the PDFs into the `data/statements` folder here, or just tell me where they are, and say "done".
 
-Read each PDF. Most assistants can read PDFs directly; otherwise use `pdftotext` or ask them to open it and paste the table. The statement lists **date, order ID, restaurant and amount**, with no individual dishes. Build `data/raw/statements.json` as `{ "orders": [ { "ts": "YYYY-MM-DD 12:00", "place": "...", "total": 123.45, "items": [ { "name": "<restaurant>", "qty": 1, "price": 123.45 } ] } ] }`, using source `"food"` or `"instamart"` per file. Tell them honestly:
+Read each PDF. Most assistants can read PDFs directly; otherwise use `pdftotext` or ask them to open it and paste the table. The statement lists **date, order ID, restaurant and amount**, with no individual dishes. What we've seen in real statements:
+- **Dates are day-first:** `07-10-2026` is 7 October. The PDF's own filename or title can read like "Jan 10 to Aug 10", so don't trust it. Read the "Date Range" field.
+- **Food:** columns are Date, Order ID, Restaurant Name, Amount. Amounts can be a little **lower** than what was actually paid (seen 4–11% lower), and some dessert or sweet-shop orders may be missing. Say so.
+- **Instamart:** columns are Date, Order ID, **Pod Name**, Amount. Pod Name is the warehouse that packed the order, not a product, so use `"place": "Instamart"`. Amounts matched what was paid.
+- Only a date, with no time, so use 12:00 as the time. Build `data/raw/statements.json` as `{ "orders": [ { "ts": "YYYY-MM-DD 12:00", "place": "...", "total": 123.45, "items": [ { "name": "<restaurant>", "qty": 1, "price": 123.45 } ] } ] }`, using source `"food"` or `"instamart"` per file (the logo and columns tell you which). Tell them honestly:
 > Heads up: the statement doesn't list dishes, so your pile will show one box per order. Searching works by restaurant ("KFC", "Domino's"), not by dish. If you'd like dishes later, option 1 or 2 takes about 2 minutes.
 
 ### 2d. Route 4 — demo only

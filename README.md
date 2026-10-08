@@ -34,7 +34,7 @@ Your assistant will say hello, give you a few choices, and walk you through it o
 |---|---|---|
 | **1. Your assistant reads swiggy.com** *(easiest)* | Log in on swiggy.com. Only if your assistant can control your Chrome, e.g. Claude Code + the free [Claude in Chrome](https://claude.ai/chrome) extension | Every dish, last 12 months |
 | **2. One copy-paste step** | Paste a small script into Chrome. Your assistant shows you how. Works with any assistant | Every dish, last 12 months |
-| **3. Swiggy phone app** | Request an *Account Statement* in the app, save the PDF here | Restaurants and amounts, but no individual dishes |
+| **3. Swiggy phone app** | Request an *Account Statement* (Food and/or Instamart) in the app, save the PDFs here | One box per order with restaurant and amount. No individual dishes |
 | **4. Just the demo** | Nothing | A pile of fake sample orders |
 
 **Gmail (recommended):** swiggy.com doesn't show Instamart orders. If you connect Gmail, your assistant reads only your Swiggy order emails (read-only) to add your Instamart orders, plus your Incognito orders, but only if you ask. It's your choice, and skipping it is fine.
